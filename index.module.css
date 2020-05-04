@@ -9,12 +9,8 @@
     left: 0;
     animation: explode 5s forwards;
     transform: scale(0.1);
-    z-index: 9001;
     width: 100vw;
-    height: 100vh;
-    z-index: -1;
-
-    
+    height: 100vh; 
 }
 
 .inner_container{
