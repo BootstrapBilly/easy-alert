@@ -36,7 +36,7 @@ const Alert = (text, type, options) => {
     message_container.classList.add(classes.message_container)
 
     //message
-    const message = document.createTextNode(text)
+    const message = document.createTextNode("test")
 
     //*Appending all elements to create a component
 
