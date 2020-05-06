@@ -11,5 +11,8 @@
         "feedback",
         "javascript",
         "flash_message"
-    ]
+    ],
+    "dependencies": {
+        "index.js": "0.0.3"
+    }
 }
