@@ -9,7 +9,6 @@
     animation: explode 5s forwards;
     transform: scale(0.1);
     width: 100vw; 
-    background-color: rebeccapurple;
     z-index: 2147483647;
 }
 
