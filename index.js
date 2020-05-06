@@ -61,7 +61,8 @@ const Alert = (text, type, options) => {
     icon_container.style.background=icon_and_colour.color
     icon.src=icon_and_colour.icon
 
-    document.getElementById("root").insertBefore(container, document.querySelector(".App"))
+    //document.getElementById("root").insertBefore(container, document.querySelector(".App"))
+    document.getElementsByTagName("BODY")[0].appendChild(container)
 
     setTimeout(() => {
         alert && alert.remove()
