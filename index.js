@@ -34,6 +34,7 @@ const Alert = (text, type, options) => {
     //message_container
     const message_container = document.createElement("div")
     message_container.classList.add(classes.message_container)
+    message_container.setAttribute("id", "easy-alert")
 
     //message
     const message = document.createTextNode(text)
